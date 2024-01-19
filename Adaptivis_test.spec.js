@@ -15,4 +15,7 @@ test('Account creation', async ({page}) => {
 
    //Click the Create an Account link
    await page.getByText('Create an Account').click();
-})
+
+   //Fill in the First Name
+   await page.getBy
+});
